@@ -12,7 +12,7 @@ attendees.each do |attendee|
 end
 
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
 room_assignments = []
 speakers.each_with_index do |speaker, idx|
   room_assignments << "Hello, #{speaker}! You'll be assigned to room #{idx + 1}!"
